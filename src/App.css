@@ -5,7 +5,6 @@ html {
 
 
 body{
-    /* border: 20px solid transparent; */
     border-image: linear-gradient(0deg, #2a482f4a ,#272727, #160303) 1;
     min-height: 100vh;
     background: linear-gradient(150deg, #243f284a ,#000000, #1f0404); 
@@ -26,8 +25,8 @@ body{
   color: white;
   padding: 2rem;
   display: flex;
-  justify-content: center;   /* centers horizontally */
-  align-items: center;       /* centers vertically */
+  justify-content: center;   
+  align-items: center;       
   
 }
 
@@ -83,8 +82,6 @@ right:70%;
 
 
 .projects {
-  /* display: flex;
-  flex-direction: row; */
   padding: 2rem;
   max-width: 800px;
   margin: 0 auto;
@@ -109,15 +106,14 @@ right:70%;
 .projects .project-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 8rem;
+  column-gap: 11rem;
   row-gap: 3rem;
 }
 
 .project-card {
-  min-width: 310px;
-  /* background: rgba(255, 255, 255, 0.12); */
+  min-width: 350px;
   background: linear-gradient(0deg, #2a482f4a ,#272727, #160303);
-  border-radius: 8px;
+  border-radius: 16px;
   padding: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -131,6 +127,18 @@ right:70%;
   margin: 0 auto;
   position: relative;
   right:15%;
-  text-align: center;
+}
+
+.contact .icon {
+  width: 100px;
+  height: 40x;
+  fill: white;
+  transition: fill 0.3s ease;
+}
+
+.contact .title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
 }
 
