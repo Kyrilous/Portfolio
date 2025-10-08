@@ -1,6 +1,7 @@
  /*Global Styles*/
 html {
   background: linear-gradient(0deg, #2a482f4a, #272727, #160303);
+  
 }
 
 body {
@@ -29,7 +30,8 @@ body {
 
 .header h1 {
   font-size: 3rem;
-  margin: 0.5rem 0 0;
+  margin: 0rem 0 0;
+  padding-right: 60px;
 }
 
 .header p {
@@ -140,8 +142,9 @@ body {
 /*Contact Section */
 .contact {
   max-width: 800px;
+  max-height: 150px;
   margin: 4rem auto;
-  padding: 2rem;
+  padding-top: 2rem;
   text-align: center;
 }
 
@@ -164,6 +167,7 @@ body {
   fill: white;
   transition: transform 0.3s ease, fill 0.3s ease;
 }
+
 
 .contact .icon:hover {
   transform: scale(1.1);
@@ -197,6 +201,18 @@ body {
 .navbar a:hover {
   color: #646cff;
 }
+
+
+/*ooter*/
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(90deg, #00000089, #43434328); 
+  margin-top: 4rem;
+  border-radius: 8px;
+}
+
+
 
 /*Smaller Screen Adjustments*/
 @media (max-width: 768px) {

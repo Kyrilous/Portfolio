@@ -1,42 +1,34 @@
-import { useState } from 'react'
-import viteLogo from '/vite.svg'
-import './App.css'
-import About from './Sections/about'
-import Projects from './Sections/projects'  
-import Contact from './Sections/contact'
-import Navbar from './Sections/Navbar'
+import { useState } from "react";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import About from "./Sections/about";
+import Projects from "./Sections/projects";
+import Contact from "./Sections/contact";
+import Navbar from "./Sections/Navbar";
+import Footer from "./Sections/Footer";
 
 function App() {
   return (
-    <body> 
+    <body>
       <>
-      <Navbar />
-      <header className="header">
-      <div className="profile-container">
-        <img 
-          src="headshot.png" 
-          alt="Profile" 
-          className="profile-picture" 
-        />
-        <div className="profile-text">
-          <h1 className='name'>Kyrilous Nasr</h1>
-          <p>Computer Science Major at CUNY Queens College</p>
-        </div>
-      </div>
-</header>
+        <Navbar />
+        <header className="header">
+          <div className="profile-container">
+            <img src="headshot.png" alt="Profile" className="profile-picture" />
+            <div className="profile-text">
+              <h1 className="name">Kyrilous Nasr</h1>
+              <p>Computer Science Major at CUNY Queens College</p>
+            </div>
+          </div>
+        </header>
 
-
-    
-          <About />
-          <Projects />
-          <Contact />
-
-          
-
-
+        <About />
+        <Projects />
+        <Contact />
+        <Footer />
       </>
     </body>
-  )
+  );
 }
 
-export default App
+export default App;
