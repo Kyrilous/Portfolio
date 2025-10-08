@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import About from './Sections/about'
@@ -12,20 +11,6 @@ function App() {
     <body> 
       <>
       <Navbar />
-      {/* <header className="header">
-        <div className='profile-container'>
-          <img 
-            src="src/assets/headshot.png" 
-            alt="Profile" 
-            className="profile-picture" 
-          />
-        </div>
-        <div className='profile-text'>
-          <h1>Kyrilous Nasr</h1>
-          <p>Computer Science Major at CUNY Queens College</p>
-        </div>
-      </header> */}
-
       <header className="header">
       <div className="profile-container">
         <img 

@@ -1,34 +1,29 @@
 
 const projects = [
   {
-    title: "Project One",
-    description: "A web application that does something interesting.",
-    link: "#"
+    title: "Ubot",
+    description: "A Discord bot that automates user feedback collection, summarizes insights, and integrates responses into Google Sheets for streamlined product research.",
+    link: "https://github.com/Kyrilous/Ubot-V2"
   },
   {
-    title: "Project Two",
-    description: "Another cool project that showcases my skills.",
-    link: "#"
+    title: "Gesture Commands",
+    description: "A Python application using OpenCV and MediaPipe to recognize hand gestures and control system volume in real time.",
+    link: "https://github.com/Kyrilous/GestureCommands"
     },
 {
-    title: "Project Three",
-    description: "A web application that does something interesting.",
+    title: "Weather Application",
+    description: "A Python application that fetches real-time weather data from an API and displays it through a user-friendly graphical interface.",
     link: "#"
   },
 {
-    title: "Project Four",
-    description: "A web application that does something interesting.",
-    link: "#"
+    title: "AutoLogg",
+    description: "A web app that allows users to log and track vehicle maintenance records with a SQL database and Firebase authentication.",
+    link: "https://github.com/Kyrilous/AutoLogg"
   },
 {
-    title: "Project Five",
-    description: "A web application that does something interesting.",
-    link: "#"
-  },
-{
-    title: "Project Six",
-    description: "A web application that does something interesting.",
-    link: "#"
+    title: "2D Game",
+    description: "A Java project featuring an explorable map with player movement and interactive elements.",
+    link: "https://github.com/Kyrilous/2D-Game"
   }
 ];
 
