@@ -14,7 +14,7 @@ function App() {
       <header className="header">
       <div className="profile-container">
         <img 
-          src="src/assets/headshot.png" 
+          src="headshot.png" 
           alt="Profile" 
           className="profile-picture" 
         />
