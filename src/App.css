@@ -20,6 +20,7 @@ body{
 }
     
 
+
 .header {
   width: 100%;
   color: white;
@@ -61,15 +62,16 @@ right:70%;
 }
 
 .about {
-  padding: 2rem;
+  padding: 1.5rem;
   max-width: 800px;
   margin: 0 auto;
   position: relative;
-  right:15%;
+  right:17%;
+  font-size: 1.5rem;
 }
 
 .about p {
-  line-height: 1.6;
+  line-height: 1.7;
   font-size: 1.1rem;
   color: white;
 }
@@ -82,11 +84,10 @@ right:70%;
 
 
 .projects {
-  padding: 2rem;
   max-width: 800px;
   margin: 0 auto;
   position: relative;
-  right:15%;
+  right:17%;
 }
 
 
@@ -106,7 +107,7 @@ right:70%;
 .projects .project-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 11rem;
+  column-gap: 7rem;
   row-gap: 3rem;
 }
 
@@ -116,6 +117,7 @@ right:70%;
   border-radius: 16px;
   padding: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
 }
 .project-card:hover{
   transform: scale(1.08);
@@ -126,7 +128,14 @@ right:70%;
   max-width: 800px;
   margin: 0 auto;
   position: relative;
-  right:15%;
+  right:17%;
+  gap: 2rem;
+}
+
+.contact .icons {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
 }
 
 .contact .icon {
