@@ -85,7 +85,7 @@ body {
 }
 
 .about p {
-  text-align: justify;
+  text-align: left;
   line-height: 1.6;
   font-size: 0.95rem;
   padding: 0 5%;
@@ -209,7 +209,7 @@ body {
   padding: 1rem;
   background: linear-gradient(90deg, #00000089, #43434328); 
   margin-top: 4rem;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 
