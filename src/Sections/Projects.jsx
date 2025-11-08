@@ -18,7 +18,7 @@ const projects = [
 {
     title: "AutoLog",
     description: "A web app that allows users to log and track vehicle maintenance records with a SQL database and Firebase authentication.",
-    link: "https://auto-logg-mckfuu4je-kyrilous-projects.vercel.app/"
+    link: "https://auto-logg.vercel.app/"
   },
 {
     title: "2D Game",
